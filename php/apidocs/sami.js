@@ -1191,7 +1191,7 @@
     $(function() {
         // Modify the HTML to work correctly based on the current depth
         rootPath = $('body').attr('data-root-path');
-        treeHtml = treeHtml.replace(/href="/g, 'href="' + rootPath);
+        treeHtml = treeHtml.replace(/href="./g, 'href="' + rootPath);
         Sami.injectApiTree($('#api-tree'));
     });
 

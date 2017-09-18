@@ -18,7 +18,7 @@ In a browser-based application, you can create a Log Out link with the following
 
 .. code-block:: html
 
-  <form action="/logout" method="post" id="logout_form">
+  <form action="./logout" method="post" id="logout_form">
     <a onclick="document.getElementById('logout_form').submit();" style="cursor: pointer;">
       Log Out
     </a>

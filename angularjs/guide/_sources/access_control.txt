@@ -66,7 +66,7 @@ need to request access:
 
   <ul class="nav navbar-nav">
     <li if-user-in-group="admins">
-      <a ng-href="/admin">Admin Console</a>
+      <a ng-href="./admin">Admin Console</a>
     </li>
     <li if-user>
       <a ui-sref="main" sp-logout>Logout</a>
